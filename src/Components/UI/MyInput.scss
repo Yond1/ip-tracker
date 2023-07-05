@@ -43,5 +43,12 @@
   .my-input {
     width: 78%;
     height: 45px;
+    input {
+      font-size: 14px;
+      padding: 0 10px;
+      &::placeholder {
+        width: 72%;
+      }
+    }
   }
 }
