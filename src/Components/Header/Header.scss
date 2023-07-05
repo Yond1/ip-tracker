@@ -1,0 +1,25 @@
+.header {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  background: url("../../assets/images/pattern-bg-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  align-items: center;
+  padding-top: 30px;
+
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    background: url("../../assets/images/pattern-bg-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
